@@ -237,7 +237,7 @@
 		<key>keywords</key>
 		<dict>
 			<key>match</key>
-			<string>\b(continue|operator|override|this|typedef|extern|static|delete|new|catch|export|break|auto|return|public|protected|private|const|using|mutable|constexpr|if|while|for|case|switch|catch|try|decltype|do|else|virtual|noexcept|default|class|struct|enum|union|template|typename|namespace|explicit|friend|nullptr)\b</string>
+			<string>\b(inline|continue|operator|override|this|typedef|extern|static|delete|new|catch|export|break|auto|return|public|protected|private|const|using|mutable|constexpr|if|while|for|case|switch|catch|try|decltype|do|else|virtual|noexcept|default|class|struct|enum|union|template|typename|namespace|explicit|friend|nullptr)\b</string>
 			<key>name</key>
 			<string>keyword.other.c++</string>
 		</dict>
@@ -594,7 +594,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b([_A-Z]+)\b</string>
+			<string>\b([_A-Z0-9]+)\b</string>
 		</dict>
 
 		<key>preprocessor_definition</key>
