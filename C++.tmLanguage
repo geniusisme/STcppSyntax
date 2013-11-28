@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>I don't think anyone uses .hp. .cp tends to be paired with .h. (I could be wrong. :) -- chris</string>
 	<key>fileTypes</key>
 	<array>
 		<string>cpp</string>
@@ -237,7 +235,7 @@
 		<key>keywords</key>
 		<dict>
 			<key>match</key>
-			<string>\b(inline|continue|operator|override|this|typedef|extern|static|delete|new|catch|export|break|auto|return|public|protected|private|const|using|mutable|constexpr|if|while|for|case|switch|catch|try|decltype|do|else|virtual|noexcept|default|class|struct|enum|union|template|typename|namespace|explicit|friend|nullptr)\b</string>
+			<string>\b(sizeof|nothrow|const_cast|static_cast|dynamic_cast|reinterpret_cast|throw|inline|continue|operator|override|this|typedef|extern|static|delete|new|export|break|auto|return|public|protected|private|const|using|mutable|constexpr|if|while|for|case|switch|catch|try|decltype|do|else|virtual|noexcept|default|class|struct|enum|union|template|typename|namespace|explicit|friend|nullptr)\b</string>
 			<key>name</key>
 			<string>keyword.other.c++</string>
 		</dict>
@@ -594,7 +592,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b([_A-Z0-9]+)\b</string>
+			<string>\b([_A-Z][_A-Z0-9]+)\b</string>
 		</dict>
 
 		<key>preprocessor_definition</key>
