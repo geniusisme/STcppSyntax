@@ -9,4 +9,8 @@ Syntax is not only highlighting, but some other things, too. For example, for sy
 Usage
 -----
 
-Create folder "C++" in your plugins folder, and pull this repo there. Then restrart all copies of Sublime. You will end up with syntax highlighting in your c++ files and with extracted symbols in your projects. Some highlighting features needs special threatment, so standard color schemes will not highlight everything this plugin provides. Soon the example tmTheme will be provided.
+Create folder "C++" in your plugins folder, and pull this repo there. Then restrart all copies of Sublime. You will end up with syntax highlighting in your c++ files and with extracted symbols in your projects. Some highlighting features needs special threatment, so standard color schemes will not highlight everything this plugin provides.
+
+To highlight type names, use following selectors in .tmTheme:
+
+entity.name.type-of, entity.name.type
