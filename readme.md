@@ -13,4 +13,4 @@ Create folder "C++" in your plugins folder, and pull this repo there. Then restr
 
 To highlight type names, use following selectors in .tmTheme:
 
-entity.name.type-of, entity.name.type
+	entity.name.type-of, entity.name.type
